@@ -6,7 +6,7 @@ import AddPizzaForm from "../AddPizzaForm/AddPizzaForm";
 import DisplayPizzas from "../DisplayPizzas/DisplayPizzas";
 
 //Types
-import { IPizzaItem } from "../../interfaces/types";
+import { IPizzaItem } from "../../types/types";
 
 //Styles
 import "./App.css";

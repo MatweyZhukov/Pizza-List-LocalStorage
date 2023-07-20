@@ -8,7 +8,7 @@ import { AiFillEdit, AiFillDelete } from "react-icons/ai";
 import EditPizzaForm from "../EditPizzaForm/EditPizzaForm";
 
 //Types
-import { ISinglePizza } from "../../interfaces/types";
+import { ISinglePizza } from "../../types/types";
 
 //Styles
 import "./singlePizza.css";

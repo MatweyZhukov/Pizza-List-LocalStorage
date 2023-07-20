@@ -2,7 +2,7 @@
 import { FormEvent, useState } from "react";
 
 //Types
-import { IEditPizzaForm } from "../../interfaces/types";
+import { IEditPizzaForm } from "../../types/types";
 
 //Components
 import PizzaOptions from "../PizzaOptions/PizzaOptions";

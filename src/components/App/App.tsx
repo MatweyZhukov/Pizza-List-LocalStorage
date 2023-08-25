@@ -28,13 +28,7 @@ function App() {
 
   function updatePizza(newPizza: IPizzaItem) {
     setPizzasList(
-      pizzasList.map((item: IPizzaItem) => {
-        if (item.id === newPizza.id) {
-          return newPizza;
-        } else {
-          return item;
-        }
-      })
+      pizzasList.map((item) => (item.id === newPizza.id ? newPizza : item))
     );
   }
 
